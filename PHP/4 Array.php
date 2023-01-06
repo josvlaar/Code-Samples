@@ -13,3 +13,16 @@ define("cars", [
 echo cars[0];
 ?> 
 
+<?php
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+echo "Peter is " . $age['Peter'] . " years old.";
+?>
+
+<?php
+$cars = array (
+  array("Volvo",22,18),
+  array("BMW",15,13),
+  array("Saab",5,2),
+  array("Land Rover",17,15)
+);
+?>
